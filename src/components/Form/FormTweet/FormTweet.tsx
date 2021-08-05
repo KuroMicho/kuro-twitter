@@ -38,7 +38,7 @@ const FormTweet = () => {
       initialValues={initialValues}
       validationSchema={validationSchema}
       onSubmit={(values, actions) => {
-        const { image, content } = values;
+        const { content } = values;
         handleAdd({
           image: url,
           content,
