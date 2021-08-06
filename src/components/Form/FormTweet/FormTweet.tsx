@@ -32,7 +32,6 @@ const initialValues: TweetState = {
 const FormTweet = () => {
   const { handleAdd, setUrl, url } = useContext(TweetContext);
 
-  console.log(url);
   return (
     <Formik
       initialValues={initialValues}

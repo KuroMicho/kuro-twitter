@@ -105,7 +105,6 @@ const getLocalStorage = (key: any, values: any) => {
   const item = localStorage.getItem(key);
   if (item) {
     const data = JSON.parse(item);
-    console.info(data);
     if (data.length > 0) return data;
     return values;
   }
